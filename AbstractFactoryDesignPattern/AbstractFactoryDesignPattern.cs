@@ -19,11 +19,11 @@ namespace  AbstractFactoryDesignPattern
         public void SendMessage();
     }
 
-    public class WebChat : Message
+    public class WeChat : Message
     {
         public override void SendMessage()
         {
-            Console.WriteLine("WebChat Send Message!");
+            Console.WriteLine("WeChat Send Message!");
         }
     }
     public class QQ : Message
@@ -42,11 +42,11 @@ namespace  AbstractFactoryDesignPattern
             {
                 return new QQFactory();
             }
-            else if(factoryType.Equals("WebChat"))
+            else if(factoryType.Equals("WeChat"))
             {
-                return new WebChatFactory();
+                return new WeChatFactory();
             }
-            
+            return null;
         }
     }
     public class QQFactory : IMessageFactory
@@ -56,11 +56,11 @@ namespace  AbstractFactoryDesignPattern
             return new QQ();
         }
     }
-    public class WebChatFactory : IMessageFactory
+    public class WeChatFactory : IMessageFactory
     {
         public override Message CreateMessge()
         {
-            return new WebChat();
+            return new WeChat();
         }
     }
 }

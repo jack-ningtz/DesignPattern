@@ -7,7 +7,7 @@ namespace FactoryDesignPattern
         static void Main(String[] args)
         {
              MessageFactory messageFactory = new MessageFactory();
-             Message message = messageFactory.getMessageTool("webchat");
+             Message message = messageFactory.getMessageTool("wechat");
              message.SendInfo();
              Console.ReadLine();
         }
@@ -21,13 +21,13 @@ namespace FactoryDesignPattern
         public abstract void SendInfo();
     }
     /// <summary>
-    ///  class WebChat
+    ///  class WeChat
     /// </summary>
-    public class WebChat : Message
+    public class WeChat : Message
     {
         public override void SendInfo()
         {
-            Console.WriteLine("WebChat Send Info");
+            Console.WriteLine("WeChat Send Info");
         }
     }
     /// <summary>
@@ -44,9 +44,9 @@ namespace FactoryDesignPattern
     {
         public Message getMessageTool(string toolname)
         {
-            if(toolname.Equals("webchat"))
+            if(toolname.Equals("wechat"))
             {
-                return new WebChat();
+                return new WeChat();
             }
             else if (toolname.Equals("QQ"))
             {
