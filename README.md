@@ -7,3 +7,5 @@
 - 抽象工厂模式：[Abstract Factory Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/AbstractFactoryDesignPattern "Abstract Factory Design")
 
 - 建造者模式：[Builder Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/BuilderDesignPattern "Builder Design")
+
+- 单例模式：[Singleton Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/SingletonDesignPattern "Singleton Design")
