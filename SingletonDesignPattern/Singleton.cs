@@ -5,7 +5,7 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            Singleton singleton = Singleton.GetSingleton();
+            Singleton singleton = Singleton.GetSingleton;
             Console.ReadKey();
         }
     }
