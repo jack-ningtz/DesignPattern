@@ -4,6 +4,6 @@
 
 - 工厂方法模式：[Factory Method Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/FactoryMethodDesignPattern "Factory Method Design")
 
-- 抽象工厂模式：[Abstract Factory Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/AbstractFactoryDesignPattern "  Abstract Factory Design")
+- 抽象工厂模式：[Abstract Factory Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/AbstractFactoryDesignPattern "Abstract Factory Design")
 
-
+- 建造者模式：[Builder Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/BuilderDesignPattern "Builder Design")
