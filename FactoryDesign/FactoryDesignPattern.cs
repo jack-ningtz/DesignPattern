@@ -16,14 +16,14 @@ namespace FactoryDesignPattern
     /// <summary>
     ///  abstract class
     /// </summary>
-    public abstract class Message
+    public abstract class Message 
     {
         public abstract void SendInfo();
     }
     /// <summary>
     ///  class WebChat
     /// </summary>
-    public class WebChat
+    public class WebChat : Message
     {
         public override void SendInfo()
         {
@@ -33,7 +33,7 @@ namespace FactoryDesignPattern
     /// <summary>
     ///  class QQ
     /// </summary>
-    public class QQ
+    public class QQ : Message
     {
         public override void SendInfo()
         {
