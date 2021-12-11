@@ -23,8 +23,7 @@ namespace ThreadSafeSingleton
             Singleton b = Singleton.GetInstance;
             b.PrintDetails("from b");
         }
-    }namespace SingletonDemo
-{
+    }
     public sealed class Singleton
     {
         private static int counter = 0;
@@ -34,7 +33,10 @@ namespace ThreadSafeSingleton
             counter++;
             Console.WriteLine("Counter Value " + counter.ToString());
         }
-
+        /// <summary>
+        ///  Non-Lazy or Eager loading
+        /// </summary>
+        /// <returns></returns>
         private static readonly Singleton singleInstance = new Singleton(); 
         
         public static Singleton GetInstance
@@ -50,5 +52,4 @@ namespace ThreadSafeSingleton
             Console.WriteLine(message);
         }
     }
-}
 }
