@@ -1,4 +1,4 @@
-# DesignPattern
+# 设计模式 DesignPattern
 ## 创建型设计模式 Creational Design Pattern in C# 
 - 工厂模式：[Factory Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/blob/main/FactoryDesignPattern "Factory Design")
 
