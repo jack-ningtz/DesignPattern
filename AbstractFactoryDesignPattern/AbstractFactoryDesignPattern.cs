@@ -7,7 +7,7 @@ namespace AbstractFactoryDesignPattern
         static void Main(string[] args)
         {
             IMessageFactory messageFactory = IMessageFactory.CreateMessageFactory("QQ");
-            QQ qq = (QQ)messageFactory.CreateMessage();
+            Message qq = messageFactory.CreateMessage();
             qq.SendMessage();
             Console.ReadKey();
         }
