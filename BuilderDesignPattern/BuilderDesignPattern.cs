@@ -73,7 +73,11 @@ namespace BuilderDesignPattern
     public abstract class Builder 
     {
         //protected Computer computer = new Computer();
-        protected Computer computer = new Computer();
+        protected Computer computer;
+        public void CreateComputer()
+        {
+            computer = new Computer();
+        }
         public abstract void BuilderLED();
         public abstract void BuilderKeyboard();
         public abstract void BuilderMouse();
@@ -109,6 +113,7 @@ namespace BuilderDesignPattern
     {
         public Computer MakeComputer(Builder builder)
         {
+            builder.CreateComputer();
             builder.BuilderLED();
             builder.BuilderKeyboard();
             builder.BuilderMouse();
