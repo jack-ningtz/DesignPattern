@@ -1,6 +1,7 @@
 using System;
 namespace FactoryDesignPattern
 {
+    // Test FactoryDesign
     class Program
     {
         static void Main(String[] args)
