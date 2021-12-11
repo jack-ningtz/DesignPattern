@@ -1,5 +1,5 @@
 using System;
-namespace  AbstractFactoryDesignPattern
+namespace AbstractFactoryDesignPattern
 {
     //Test AbstractFactoryDesignPattern
     class Pragrom
@@ -7,16 +7,16 @@ namespace  AbstractFactoryDesignPattern
         static void Main(string[] args)
         {
             IMessageFactory messageFactory = IMessageFactory.CreateMessageFactory("QQ");
-            QQ  qq = messageFactory.CreateMessage();
+            QQ qq = (QQ)messageFactory.CreateMessage();
             qq.SendMessage();
             Console.ReadKey();
         }
     }
 
     //Abstatct Product
-    public interface Message
+    public abstract class Message
     {
-        public void SendMessage();
+        public abstract void SendMessage();
     }
 
     public class WeChat : Message
@@ -35,14 +35,14 @@ namespace  AbstractFactoryDesignPattern
     }
     public abstract class IMessageFactory
     {
-        public Message CreateMessage();
+        public abstract Message CreateMessage();
         public static IMessageFactory CreateMessageFactory(string factoryType)
         {
-            if(factoryType.Equals("QQ"))
+            if (factoryType.Equals("QQ"))
             {
                 return new QQFactory();
             }
-            else if(factoryType.Equals("WeChat"))
+            else if (factoryType.Equals("WeChat"))
             {
                 return new WeChatFactory();
             }
@@ -58,7 +58,7 @@ namespace  AbstractFactoryDesignPattern
     }
     public class WeChatFactory : IMessageFactory
     {
-        public override Message CreateMessge()
+        public override Message CreateMessage()
         {
             return new WeChat();
         }
