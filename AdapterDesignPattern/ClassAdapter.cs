@@ -17,7 +17,7 @@ namespace ClassAdapterDesignPattern
     ///  It is an interface and this interface needs to be implemented by 
     ///  the Adapter and the client can see only this interface.
     /// </summary>
-    public interface ITarget 
+    public interface ITarget
     {
         void Service();
     }
@@ -26,7 +26,7 @@ namespace ClassAdapterDesignPattern
     ///  This class contains the functionality which the client requires 
     ///  but it’s not compatible with the existing client code.
     /// </summary>
-    public class Adaptee 
+    public class Adaptee
     {
         public void AService()
         {
@@ -38,7 +38,7 @@ namespace ClassAdapterDesignPattern
     ///  class adapter
     ///  This is a class that makes two incompatible systems work together
     /// </summary>
-    public class ClassAdapter : ITarget, Adaptee
+    public class ClassAdapter :  Adaptee, ITarget
     {
         public void Service()
         {
