@@ -13,6 +13,7 @@
 - 原型模式：[Prototype Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/PrototypeDesignPattern "Prototype  Design")
 
 ## 结构型设计模式 Structural Design Pattern in C# 
+- 适配器模式：[Adapter Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/AdapterDesignPattern "Adapter  Design")
 
 ## 行为型设计模式 Behavioral Design Pattern in C# 
 
