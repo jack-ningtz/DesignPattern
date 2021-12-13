@@ -17,6 +17,8 @@
 
 - 桥接模式：[Bridge Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/BridgeDesignPattern "Bridge  Design")
 
+- 组合模式：[Composite Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/CompositeDesignPattern "Composite  Design")
+
 ## 行为型设计模式 Behavioral Design Pattern in C# 
 
 #### 持续更新中......
