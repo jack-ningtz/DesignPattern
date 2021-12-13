@@ -15,6 +15,8 @@
 ## 结构型设计模式 Structural Design Pattern in C# 
 - 适配器模式：[Adapter Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/AdapterDesignPattern "Adapter  Design")
 
+- 桥接模式：[Bridge Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/BridgeDesignPattern "Bridge  Design")
+
 ## 行为型设计模式 Behavioral Design Pattern in C# 
 
 #### 持续更新中......
