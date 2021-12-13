@@ -19,6 +19,8 @@
 
 - 组合模式：[Composite Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/CompositeDesignPattern "Composite  Design")
 
+- 装饰器模式：[Decorator Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/DecoratorDesignPattern "Decorator  Design")
+
 ## 行为型设计模式 Behavioral Design Pattern in C# 
 
 #### 持续更新中......
