@@ -21,6 +21,8 @@
 
 - 装饰器模式：[Decorator Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/DecoratorDesignPattern "Decorator  Design")
 
+- 外观模式：[Facade Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/FacadeDesignPattern "Facade  Design")
+
 ## 行为型设计模式 Behavioral Design Pattern in C# 
 
 #### 持续更新中......
