@@ -25,6 +25,8 @@
 
 - 享元模式：[Flyweight Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/FlyweightDesignPattern "Flyweight  Design")
 
+- 代理模式：[Proxy Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/ProxyDesignPattern "Proxy  Design")
+
 ## 行为型设计模式 Behavioral Design Pattern in C# 
 
 #### 持续更新中......
