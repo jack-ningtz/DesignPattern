@@ -2,7 +2,7 @@ using System;
 
 namespace DecoratorDesignPattern
 {
-    class Pragrom 
+    class Program 
     {
         static void Main(string[] args) 
         {

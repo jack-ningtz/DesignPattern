@@ -2,7 +2,7 @@ using System;
 namespace AbstractFactoryDesignPattern
 {
     //Test AbstractFactoryDesignPattern
-    class Pragrom
+    class Program
     {
         static void Main(string[] args)
         {

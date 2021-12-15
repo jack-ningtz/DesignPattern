@@ -5,7 +5,7 @@ using System.Runtime.Remoting.Proxies;
 
 namespace PynamicProxy
 {
-    class Pragrom
+    class Program
     {
         static void Main(String[] args)
         {

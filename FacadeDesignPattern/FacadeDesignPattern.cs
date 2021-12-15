@@ -2,7 +2,7 @@ using System;
 
 namespace FacadeDesignPattern
 {
-    class Pragrom 
+    class Program 
     {
         static void Main(String[] args)
         {

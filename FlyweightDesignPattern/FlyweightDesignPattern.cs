@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace FlyweightDesignPattern
 {
-    class Pragrom
+    class Program
     {
         private static readonly string[] colors = { "Red", "Green", "Blue", "White", "Black" };
         static void Main(string[] args)

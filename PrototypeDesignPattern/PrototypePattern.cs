@@ -2,7 +2,7 @@ using System;
 
 namespace PrototypePattern
 {
-    class Pragrom
+    class Program
     {
         static void Main(string[] args)
         {

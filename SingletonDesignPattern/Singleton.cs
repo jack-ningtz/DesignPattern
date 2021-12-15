@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Singleton
 {
-    class Pragrom
+    class Program
     {
         static void Main(string[] args)
         {

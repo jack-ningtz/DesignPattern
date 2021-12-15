@@ -3,7 +3,7 @@ using System;
 namespace ObjectAdapterDesignPattern
 {
     // Client
-    class Pragrom
+    class Program
     {
         static void Main(string[] args)
         {
