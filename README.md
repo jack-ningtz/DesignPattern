@@ -28,5 +28,6 @@
 - 代理模式：[Proxy Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/ProxyDesignPattern "Proxy  Design")
 
 ## 行为型设计模式 Behavioral Design Pattern in C# 
+- 责任链模式：[Chain of Responsibility Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/ChainOfResponsibilityDesignPattern "Chain of Responsibility Design")
 
 #### 持续更新中......
