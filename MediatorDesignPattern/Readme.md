@@ -6,3 +6,8 @@
 - 用一个中介对象来封装一系列的对象交互，中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互
 
 - 中介者模式：[Mediator Patttern](https://github.com/jack-ningtz/DesignPattern/tree/main/MediatorDesignPattern/MediatorDesignPattern.cs "Mediator  Design")
+
+### 简化
+- 不定义中介者接口，把具体中介者对象实现成为单例。
+- 同事对象不持有中介者，而是在需要的时直接获取中介者对象并调用。
+- 简化中介者模式：[Simple Mediator Patttern](https://github.com/jack-ningtz/DesignPattern/tree/main/MediatorDesignPattern/SimpleMediator.cs "Mediator  Design")

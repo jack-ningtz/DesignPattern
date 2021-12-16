@@ -7,26 +7,27 @@ namespace MediatorDesignPattern
     {
         static void Main(string[] args)
         {
-            ChatRoomMediator chatRoomMediator = new ChatRoomMediator();
-            ConcreteUser Tom = new ConcreteUser(chatRoomMediator, "Tom");
-            ConcreteUser Jack = new ConcreteUser(chatRoomMediator, "Jack");
-            chatRoomMediator.RegisterUser(Tom);
-            chatRoomMediator.RegisterUser(Jack);
 
+            ConcreteUser Tom = new ConcreteUser("Tom");
+            ConcreteUser Jack = new ConcreteUser("Jack");
             Tom.Send("Hello,Jack");
             Console.WriteLine("-------");
             Jack.Send("Hi,Tom");
             Console.ReadKey();
         }
     }
-    //中介者接口
-    public interface IChatRoomMediator
+    //中介者
+    public class ChatRoomMediator
     {
-        void SendMessage(User user, string message);
-        void RegisterUser(User user);
-    }
-    public class ChatRoomMediator : IChatRoomMediator
-    {
+        public static ChatRoomMediator chatRoomMediator = new ChatRoomMediator();
+        private ChatRoomMediator()
+        {
+
+        }
+        public static ChatRoomMediator InstanceChatRoomMediator()
+        {
+            return chatRoomMediator;
+        }
         private List<User> usersList = new List<User>();
         public void SendMessage(User user, string message)
         {
@@ -47,11 +48,11 @@ namespace MediatorDesignPattern
     public abstract class User
     {
         protected string Name;
-        protected ChatRoomMediator mediator;
-        public User(ChatRoomMediator mediator, string Name)
+        public User(string Name)
         {
-            this.mediator = mediator;
             this.Name = Name;
+            ChatRoomMediator chatRoomMediator = ChatRoomMediator.InstanceChatRoomMediator();
+            chatRoomMediator.RegisterUser(this);
         }
         public abstract void Send(string message);
         public abstract void Receive(string message);
@@ -59,14 +60,15 @@ namespace MediatorDesignPattern
 
     public class ConcreteUser : User
     {
-        public ConcreteUser(ChatRoomMediator mediator, string Name) : base(mediator, Name)
+        public ConcreteUser(string Name) : base(Name)
         {
 
         }
         public override void Send(string message)
         {
+            ChatRoomMediator mediator = ChatRoomMediator.InstanceChatRoomMediator();
             Console.WriteLine(this.Name + ": 发送 " + message);
-            mediator.SendMessage(this,message);
+            mediator.SendMessage(this, message);
 
         }
         public override void Receive(string message)
