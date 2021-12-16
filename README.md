@@ -30,4 +30,5 @@
 ## 行为型设计模式 Behavioral Design Pattern in C# 
 - 责任链模式：[Chain of Responsibility Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/ChainOfResponsibilityDesignPattern "Chain of Responsibility Design")
 
+- 命令模式：[Command Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/CommandDesignPattern "Command  Design")
 #### 持续更新中......
