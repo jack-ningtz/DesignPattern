@@ -4,4 +4,4 @@
 - 在软件系统中，行为请求者与行为实现者通常是一种紧耦合的关系，但某些场合，比如需要对行为进行记录、撤销或重做、事务等处理时，这种无法抵御变化的紧耦合的设计就不太合适。
 - According to Gang of Four (GoF) definitions, the Command Design Pattern is used to encapsulate a request as an object (i.e. a command) and pass to an invoker, wherein the invoker does now knows how to service the request but uses the encapsulated command to perform an action. (根据四人组(GoF)的定义，命令设计模式用于将请求封装为一个对象(即命令)并传递给调用者，其中调用者现在知道如何为请求服务，但使用封装的命令来执行操作。)
 
-- 组合模式：[Command Pattern](https://github.com/jack-ningtz/DesignPattern/tree/main/CommandDesignPattern/CommandDesignPattern.cs "Command  Design")
+- 命令模式：[Command Pattern](https://github.com/jack-ningtz/DesignPattern/tree/main/CommandDesignPattern/CommandDesignPattern.cs "Command  Design")
