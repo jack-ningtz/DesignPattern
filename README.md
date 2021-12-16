@@ -33,4 +33,6 @@
 - 命令模式：[Command Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/CommandDesignPattern "Command  Design")
 
 - 迭代器模式：[Iterator Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/IteratorDesignPattern "Iterator  Design")
+
+- 中介者模式：[Mediator Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/MediatorDesignPattern "Mediator  Design")
 #### 持续更新中......

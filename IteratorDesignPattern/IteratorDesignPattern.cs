@@ -11,7 +11,6 @@ namespace IteratorDesignPattern
             collection.Add(new Iterm(1, "TEST"));
             collection.Add(new Iterm(2, "TEST"));
             ItermIterator iterator = collection.CreateIterator();
-
             //for (Iterm iterm = iterator.First(); !iterator.HasNext(); iterm = iterator.Next())
             //{
             //    Console.WriteLine($"ID : {iterm.Id} & Name : {iterm.Name}");
@@ -47,7 +46,6 @@ namespace IteratorDesignPattern
     /// <summary>
     /// 实现抽象迭代器接口中所定义的方法，完成对聚合对象的遍历，记录遍历的当前位置
     /// </summary>
-
     public class ItermIterator : IIterator
     {
         private ConcreteCollection collection;
@@ -85,7 +83,7 @@ namespace IteratorDesignPattern
     }
     /// <summary>
     ///  聚会容器, 
-    /// 定义存储、添加、删除聚合对象以及创建迭代器对象的
+    ///  定义存储、添加、删除聚合对象以及创建迭代器对象的
     ///  实现抽象聚合类，返回一个具体迭代器的实例
     /// </summary>
     public class ConcreteCollection : ICollection
