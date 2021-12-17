@@ -35,4 +35,6 @@
 - 迭代器模式：[Iterator Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/IteratorDesignPattern "Iterator  Design")
 
 - 中介者模式：[Mediator Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/MediatorDesignPattern "Mediator  Design")
+
+- 备忘录模式：[Memento Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/MementoDesignPattern "Memento  Design")
 #### 持续更新中......
