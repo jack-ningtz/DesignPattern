@@ -37,4 +37,6 @@
 - 中介者模式：[Mediator Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/MediatorDesignPattern "Mediator  Design")
 
 - 备忘录模式：[Memento Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/MementoDesignPattern "Memento  Design")
+
+- 观察者模式：[Observer Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/ObserverDesignPattern "Observer  Design")
 #### 持续更新中......
