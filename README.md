@@ -43,4 +43,6 @@
 - 状态模式：[State Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/StateDesignPattern "State  Design")
 
 - 策略模式：[Strategy Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/StrategyDesignPattern "Strategy  Design")
+
+- 模板模式：[Template Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/TemplateDesignPattern "Template  Design")
 #### 持续更新中......
