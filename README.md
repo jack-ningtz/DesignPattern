@@ -45,4 +45,8 @@
 - 策略模式：[Strategy Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/StrategyDesignPattern "Strategy  Design")
 
 - 模板模式：[Template Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/TemplateDesignPattern "Template  Design")
+
+- 访问者模式：[Visitor Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/VisitorDesignPattern "Visitor  Design")
+
+- 解释器模式：[Interpreter Design Pattern in C#](https://github.com/jack-ningtz/DesignPattern/tree/main/InterpreterDesignPattern "Interpreter  Design")
 #### 持续更新中......
