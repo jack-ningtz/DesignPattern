@@ -7,5 +7,5 @@
 - 该单例对象必须由单例类自行创建；
 - 单例类对外提供一个访问该单例的全局访问点。
 ## 分类
-- 懒汉式：[Lazy Singleton Patttern](https://github.com/jack-ningtz/DesignPattern/tree/main/SingletonDesignPattern/LazySingletonDesignPattern.cs "Singleton  Design")
-- 饿汉式：[Eager Singleton Patttern](https://github.com/jack-ningtz/DesignPattern/tree/main/SingletonDesignPattern/EagerSingletonDesignPattern.cs "Singleton  Design")
+- 懒汉式：[Lazy Singleton Patttern](https://github.com/jack-ningtz/DesignPattern/tree/main/SingletonDesignPattern/LazySingleton.cs "Singleton  Design")
+- 饿汉式：[Eager Singleton Patttern](https://github.com/jack-ningtz/DesignPattern/tree/main/SingletonDesignPattern/EagerSingleton.cs "Singleton  Design")
